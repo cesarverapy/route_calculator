@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>A Star</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+    #canvas {
+      border: 2px solid #000000;
+    }
+    .controls {
+      margin-top: 20px;
+    }
+    .controls button {
+      margin: 0 5px;
+    }
+  </style>
+  <script src="astar/pathfinding.js" defer></script>
+</head>
+<body>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <div class="controls">
+    <button id="set-start">Marcar Entrada</button>
+    <button id="set-end">Marcar Salida</button>
+    <button id="set-obstacle">Marcar Obstáculos</button>
+    <button id="start" disabled>Iniciar Algoritmo</button>
+  </div>
+</body>
+</html>
