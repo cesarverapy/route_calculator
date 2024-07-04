@@ -1,0 +1,3 @@
+# A* Pathfinding Visualization
+
+Este repositorio contiene una implementación visual del algoritmo de búsqueda A* en una cuadrícula interactiva utilizando HTML5 y JavaScript. Los usuarios pueden definir el punto de inicio, el punto de fin y los obstáculos en la cuadrícula, y ver cómo el algoritmo encuentra el camino más corto entre el inicio y el fin. La interfaz permite una visualización en tiempo real del proceso de búsqueda, mostrando cómo el algoritmo explora la cuadrícula y construye el camino óptimo. Ideal para entender y enseñar el funcionamiento del algoritmo A* de forma visual e interactiva.
